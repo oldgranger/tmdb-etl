@@ -10,6 +10,7 @@ It also maintains historical tracking of movie data for trend analysis.
 - Pulls **popular movies (paginated)** from TMDB API
 - Fetches **movie genres reference data**
 - Handles API errors with logging: SAMPLE LOG
+  
 <img width="432" height="363" alt="image" src="https://github.com/user-attachments/assets/50303718-b755-4e86-b81d-ca23a95dd91e" />
 
 
@@ -44,6 +45,7 @@ It also maintains historical tracking of movie data for trend analysis.
 ## Pipeline Execution Schedule
 
 This ETL pipeline was executed daily from **May 20 – May 31** using Windows Task Scheduler (WTS) to simulate a production-like scheduled data ingestion system.
+
 <img width="432" height="363" alt="image" src="https://github.com/user-attachments/assets/53194cfc-7096-41ff-b5a9-7a53f788332f" />
 <img width="432" height="363" alt="image" src="https://github.com/user-attachments/assets/825d8f9e-b7df-4a6d-a612-78f45f1da126" />
 
