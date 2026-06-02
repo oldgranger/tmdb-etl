@@ -4,12 +4,14 @@ This project is an ETL (Extract, Transform, Load) pipeline that extracts movie d
 
 It also maintains historical tracking of movie data for trend analysis.
 
-## DATA PIPELINE FLOW
+## DATA PIPELINE FLOW:
 
 ### 1. Extract
 - Pulls **popular movies (paginated)** from TMDB API
 - Fetches **movie genres reference data**
-- Handles API errors with logging
+- Handles API errors with logging: SAMPLE LOG
+  <img width="1075" height="902" alt="image" src="https://github.com/user-attachments/assets/50303718-b755-4e86-b81d-ca23a95dd91e" />
+
 
 ### 2. Transform
 - Cleans missing values and duplicates
@@ -32,4 +34,12 @@ It also maintains historical tracking of movie data for trend analysis.
 ## ERD:
 <img width="755" height="535" alt="image" src="https://github.com/user-attachments/assets/3fe9a2a8-be5a-4a0e-ae81-af559eed86ea" />
 
+## Future Improvements
+- Add Airflow / Prefect orchestration
+- Containerize with Docker
+- Add data validation layer
+- Incremental loading
+- Deploy to cloud (AWS RDS / GCP Cloud SQL)
+
+### This project is for educational and portfolio purposes.
 
