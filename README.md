@@ -92,14 +92,31 @@ Each run:
 
 ### Genre Frequency Analysis
 
-<img width="597" height="826" alt="image" src="https://github.com/user-attachments/assets/117c51f7-545a-4214-b14f-71b1b42d10bc" />
+<img width="597" height="500" alt="image" src="https://github.com/user-attachments/assets/117c51f7-545a-4214-b14f-71b1b42d10bc" />
 
 ---
 
 ### Popularity Trend of the movie "Obsession" Overtime (using history table)
 
-<img width="557" height="831" alt="image" src="https://github.com/user-attachments/assets/dbe900eb-5af3-4926-88b8-5764d9e0d772" />
+<img width="557" height="600" alt="image" src="https://github.com/user-attachments/assets/dbe900eb-5af3-4926-88b8-5764d9e0d772" />
 
 ---
 
-## THIS PROJECT IS FOR EDUCATIONAL AND PORTFOLIO PURPOSES.
+## KEY HIGHLIGHTS 
+- End-to-end ETL pipeline design
+- API integration (TMDB)
+- Data cleaning and transformation using Pandas
+- Relational database modeling (PostgreSQL)
+- Many-to-many relationship handling
+- Time-series / historical data tracking
+- Automated scheduled execution (WTS)
+- Analytical SQL querying
+
+## FUTURE IMPROVEMENTS
+- Airflow / Prefect orchestration
+- Docker containerization
+- Data validation layer
+- Incremental loading instead of full refresh
+- Cloud deployment (AWS RDS / GCP Cloud SQL)
+
+## 📜 NOTE: THIS PROJECT IS FOR EDUCATIONAL AND PORTFOLIO PURPOSES .
