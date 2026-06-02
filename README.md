@@ -6,6 +6,15 @@ It also maintains historical tracking of movie data for trend analysis.
 
 ---
 
+## BUSINESS OBJECTIVE
+
+The goal of this pipeline is to:
+
+- Ingest movie data from an external API (TMDB)
+- Clean and structure raw data into analytics-ready tables
+- Track historical changes in movie popularity over time
+- Enable SQL-based analysis for trends and insights
+
 ## DATA PIPELINE FLOW:
 
 ### 1. Extract
