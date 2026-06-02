@@ -10,7 +10,7 @@ It also maintains historical tracking of movie data for trend analysis.
 - Pulls **popular movies (paginated)** from TMDB API
 - Fetches **movie genres reference data**
 - Handles API errors with logging: SAMPLE LOG
-  <img width="1075" height="902" alt="image" src="https://github.com/user-attachments/assets/50303718-b755-4e86-b81d-ca23a95dd91e" />
+  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/50303718-b755-4e86-b81d-ca23a95dd91e" />
 
 
 ### 2. Transform
