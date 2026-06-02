@@ -10,7 +10,7 @@ It also maintains historical tracking of movie data for trend analysis.
 - Pulls **popular movies (paginated)** from TMDB API
 - Fetches **movie genres reference data**
 - Handles API errors with logging: SAMPLE LOG
-  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/50303718-b755-4e86-b81d-ca23a95dd91e" />
+<img width="432" height="363" alt="image" src="https://github.com/user-attachments/assets/50303718-b755-4e86-b81d-ca23a95dd91e" />
 
 
 ### 2. Transform
@@ -45,7 +45,7 @@ It also maintains historical tracking of movie data for trend analysis.
 
 This ETL pipeline was executed daily from **May 20 – May 31** using Windows Task Scheduler (WTS) to simulate a production-like scheduled data ingestion system.
 <img width="432" height="363" alt="image" src="https://github.com/user-attachments/assets/53194cfc-7096-41ff-b5a9-7a53f788332f" />
-<img width="777" height="247" alt="image" src="https://github.com/user-attachments/assets/825d8f9e-b7df-4a6d-a612-78f45f1da126" />
+<img width="432" height="363" alt="image" src="https://github.com/user-attachments/assets/825d8f9e-b7df-4a6d-a612-78f45f1da126" />
 
 Each run:
 - Extracted fresh movie data from TMDB API
@@ -56,16 +56,16 @@ Each run:
 ## PostgreSQL Tables (pgAdmin 4)
 
 ### movies_dim
-<img width="1037" height="777" alt="image" src="https://github.com/user-attachments/assets/45017b93-089f-4cc9-a6dd-166bce5ebc50" />
+<img width="432" height="363" alt="image" src="https://github.com/user-attachments/assets/45017b93-089f-4cc9-a6dd-166bce5ebc50" />
 
 ### movie_genres
-<img width="487" height="825" alt="image" src="https://github.com/user-attachments/assets/b5b26242-cd8f-4e17-88f2-204455a25e07" />
+<img width="432" height="363" alt="image" src="https://github.com/user-attachments/assets/b5b26242-cd8f-4e17-88f2-204455a25e07" />
 
 ### genres
-<img width="418" height="815" alt="image" src="https://github.com/user-attachments/assets/9d277517-007a-4069-bc19-33de017dc60b" />
+<img width="432" height="363" alt="image" src="https://github.com/user-attachments/assets/9d277517-007a-4069-bc19-33de017dc60b" />
 
 ### movies_history
-<img width="1426" height="822" alt="image" src="https://github.com/user-attachments/assets/1787dee1-885a-4b93-bade-ccfe371ae925" />
+<img width="432" height="363" alt="image" src="https://github.com/user-attachments/assets/1787dee1-885a-4b93-bade-ccfe371ae925" />
 
 ## SAMPLE QUERIES
 
